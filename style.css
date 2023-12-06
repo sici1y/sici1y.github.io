@@ -14,8 +14,13 @@
     font-family: serif, Helvetica;
     margin-right: 1.5vw;
     position: relative;
-    color: black;
     display: inline;
+    background: linear-gradient(to right, green, green 50%, black 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
 }
 
 .bannerLinks {
@@ -23,8 +28,8 @@
     margin-right: 1.5vw;
     position: relative;
     display: inline;
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 #bannerLinks {
@@ -33,15 +38,21 @@
     align-content: right;
 }
 
-.bannerIMG {
-    width: 5vw;
-    height: 5vw;
+#bannerIMG {
+    font-size: 4vw;
     display: inline;
     margin-top: 1vw;
-    text-decoration: none;
+    margin-left: 1vw;
+    background: linear-gradient(to right, green, green 50%, black 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
 }
 
-.bannerIMG:hover + .title {
-        display: block;
-        color: black;
-    }
+.title:hover, #bannerIMG:hover{
+    transition: background-position 1s ease;
+    background-position: 0 100%;
+    color: green;
+}
