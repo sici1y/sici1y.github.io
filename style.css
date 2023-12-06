@@ -2,15 +2,23 @@
     font-family: Helvetica, sans-serif;
 }
 
-.topBanner {
+.mainHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.bannerLinks {
+    font-size: 16px;
+    margin-right: 1.5vw;
     position: relative;
     display: inline;
-    font-size: 16px;
-    margin-left: 0.25vw;
-
 }
 
 .bannerIMG {
-    max-width: 10%;
-    max-height: 10%;
+    width: 1vw;
+    height: 1vw;
+    display: inline;
+    margin-right: 15vw;
 }
