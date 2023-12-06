@@ -7,20 +7,11 @@
     top: 0;
     left: 0;
     width: 100vw;
+    margin-top: 1.25vw;
 }
 
 .title {
-    font-size: 35px;
-    font-family: serif, Helvetica;
-    margin-right: 1.5vw;
-    position: relative;
-    display: inline;
-    background: linear-gradient(to right, green, green 50%, black 50%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 100%;
-    background-position: 100%;
+    font-size: 2vw;
 }
 
 .bannerLinks {
@@ -43,16 +34,26 @@
     display: inline;
     margin-top: 1vw;
     margin-left: 1vw;
+}
+
+#bannerIMG {
     background: linear-gradient(to right, green, green 50%, black 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200% 100%;
+    transition: background-position .5s ease;
     background-position: 100%;
 }
 
-.title:hover, #bannerIMG:hover{
-    transition: background-position 1s ease;
+#bannerIMG:hover{
     background-position: 0 100%;
     color: green;
+}
+
+
+.test2{
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: -2vw;
 }
