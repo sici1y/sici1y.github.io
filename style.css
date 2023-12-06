@@ -9,7 +9,16 @@
     width: 100vw;
 }
 
-.bannerLinks, .title {
+.title {
+    font-size: 16px;
+    margin-right: 1.5vw;
+    position: relative;
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+
+.bannerLinks {
     font-size: 16px;
     margin-right: 1.5vw;
     position: relative;
