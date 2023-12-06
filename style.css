@@ -10,12 +10,12 @@
 }
 
 .title {
-    font-size: 16px;
+    font-size: 35px;
+    font-family: serif, Helvetica;
     margin-right: 1.5vw;
     position: relative;
-    display: inline;
-    text-decoration: none;
     color: black;
+    display: inline;
 }
 
 .bannerLinks {
@@ -27,9 +27,21 @@
     color: black;
 }
 
-.bannerIMG {
-    width: 0.5vw;
-    height: 0.5vw;
-    display: inline;
-    margin-right: 15vw;
+#bannerLinks {
+    position: relative;
+    margin-left: 15vw;
+    align-content: right;
 }
+
+.bannerIMG {
+    width: 5vw;
+    height: 5vw;
+    display: inline;
+    margin-top: 1vw;
+    text-decoration: none;
+}
+
+.bannerIMG:hover + .title {
+        display: block;
+        color: black;
+    }
