@@ -3,9 +3,11 @@
 }
 
 .topBanner {
+    position: relative;
     display: inline;
     font-size: 16px;
-    margin-left: 2vw;
+    margin-left: 0.25vw;
+
 }
 
 .bannerIMG {
