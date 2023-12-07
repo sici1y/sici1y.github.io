@@ -42,7 +42,7 @@
 }
 
 #bannerIMG {
-    background: linear-gradient(to right, #54911B, #54911B 50%, white 50%);
+    background: linear-gradient(to right, #54911B, #54911B 49%, white 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -67,7 +67,7 @@
 .bgImage{
     max-width: 100vw;
     height: auto;
-    opacity: 0.8
+    opacity: 0.8;
 }
 .imageSection {
     background-color: black;
