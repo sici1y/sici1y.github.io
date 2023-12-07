@@ -30,9 +30,28 @@
 
 #bannerLinks {
     position: relative;
-    margin-left: 15vw;
+    margin-left: 12vw;
     align-content: right;
 }
+
+#dropdownMenuButton {
+    position: absolute;
+    font-size: 2.25vw;
+    margin-left: 12vw;
+    margin-top: -0.5vw;
+    color: white;
+}
+.menuBar {
+    display: none;
+    align-content: center;
+}
+#dropdownMenuButton:hover .menuBar {
+    display: block;
+}
+#menuItems {
+    font-size: 1vw;
+}
+
 
 #bannerIMG {
     font-size: 4vw;
@@ -41,7 +60,7 @@
     margin-left: 1vw;
 }
 
-#bannerIMG {
+#bannerIMG, #dropdownMenuButton {
     background: linear-gradient(to right, #54911B, #54911B 49%, white 50%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -51,9 +70,10 @@
     background-position: 100%;
 }
 
-#bannerIMG:hover{
+#bannerIMG:hover, #dropdownMenuButton:hover{
     background-position: 0 100%;
     color: green;
+    cursor: pointer;
 }
 
 
