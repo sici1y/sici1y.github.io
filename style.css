@@ -6,16 +6,25 @@
 
 body {
     overflow-x: hidden;
+    width: 100%;
 }
 
 /* ---- TOP OF PAGE ----- */
 
-.mainHeader {
+.mainBanner {
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
-    margin-top: 1.25vw;
+    padding-bottom: 1vw;
+}
+
+.test {
+    padding-top: 0.5vw;
+}
+
+.mainLinks {
+    padding-bottom: 0.5vw;
 }
 
 .title {
@@ -132,13 +141,14 @@ body {
 
 /* ----- IMAGE FOR PAGE ----- */
 .bgImage {
-    max-width: 100vw;
+    width: 120%;
     height: auto;
     opacity: 0.6;
 }
 
 .imageSection {
     background-color: black;
+    width: 101vw;
 }
 
 
@@ -208,7 +218,7 @@ body {
     font-size: 3vw;
     position: absolute;
     left: 50%;
-    margin-top: 3vw;
+    margin-top: 1.75vw;
     transition: all .2s ease-in-out; 
 }
 #downArrowImage-Cards:hover {
@@ -217,7 +227,6 @@ body {
 .scrollShortcuts {
     text-decoration: none;
     color: black;
-    scroll-behavior: smooth;
 }
 
 /* ------- TITLE FOR INITIATIVES -------*/
