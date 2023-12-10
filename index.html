@@ -8,7 +8,9 @@
     <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -66,7 +68,7 @@
     <div class="downArrow">
         <a id="scroll-1" class="scrollShortcuts">
             <i class="fa-solid fa-angle-down" id="downArrowImage-Cards"></i>
-            </a>
+        </a>
     </div>
 
     <!-- -------- PREVIEW INITIATIVE CARDS ------- -->
@@ -81,16 +83,16 @@
             <!-- SOLAR IMAGE -->
             <img src="images/solarCardImage.jpg" alt="Solar Farm" class="cardImage">
             <div class="containerCard">
-                <h4><b>Solar Energy</b></h4>
-                <p>PLACEHOLDER</p>
+                <h4 class="initiativeCardTitle"><b>Solar Energy</b></h4>
+                <p class="initiativeInfo">PLACEHOLDER</p>
             </div>
         </div>
         <div class="card1">
             <!-- WIND IMAGE-->
             <img src="images/windCardImage.jpg" alt="Wind Farm" class="cardImage">
             <div class="containerCard">
-                <h4><b>Wind Energy</b></h4>
-                <p>PLACEHOLDER</p>
+                <h4 class="initiativeCardTitle"><b>Wind Energy</b></h4>
+                <p class="initiativeInfo">PLACEHOLDER</p>
             </div>
         </div>
         <!-- GEOTHERMAL IMAGE -->
@@ -98,13 +100,38 @@
             <!-- WIND IMAGE-->
             <img src="images/geoThermalCard.jpg" alt="Geothermal Plant" class="cardImage">
             <div class="containerCard">
-                <h4><b>Geothermal Energy</b></h4>
-                <p>PLACEHOLDER</p>
+                <h4 class="initiativeCardTitle"><b>Geothermal Energy</b></h4>
+                <p class="initiativeInfo">PLACEHOLDER</p>
             </div>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <!-- ------ DOWN ARROW TO TRANSITION FROM INITIATIVES TO ABOUT US ------ -->
+    <div class="downArrow">
+        <a id="scroll-2" class="scrollShortcuts">
+            <i class="fa-solid fa-angle-down" id="downArrowImage-Cards1"></i>
+        </a>
+    </div>
+
+    <!-- --------- ABOUT US PAGE --------- -->
+    <div id="scrollShortcutTwo" class="aboutUsSection">
+        <h1 class="aboutUsTitle"> ABOUT US</h1>
+
+        <div class="aboutUsInfo">
+            <p class="aboutUsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ut ullam perspiciatis,
+                corporis sapiente eveniet porro id maxime voluptatem possimus! Tenetur aliquid corporis ipsum quisquam
+                deserunt modi voluptatibus mollitia amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                dolorum facilis consectetur neque, qui necessitatibus esse alias in ab possimus fugit dicta deserunt
+                soluta dolore amet sunt a molestias sapiente!</p>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="scripts/smoothScroll.js"></script>
 
 </body>
 
