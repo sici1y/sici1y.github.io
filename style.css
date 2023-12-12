@@ -46,6 +46,9 @@ body {
     margin-left: 12vw;
     align-content: right;
 }
+#bannerLinks:hover {
+    color: #e6e6e6;
+}
 
 
 #dropbtn {
@@ -230,7 +233,7 @@ body {
 #downArrowImage-Cards1 {
     font-size: 3vw;
     position: absolute;
-    top: 150%;
+    top: 185%;
     left: 50%;
     margin-top: 1.75vw;
     transition: all .2s ease-in-out;
@@ -247,6 +250,11 @@ body {
 }
 
 /* ------- TITLE FOR INITIATIVES -------*/
+.initiativeBackground {
+    width: 100vw;
+    height: 50vw;
+    margin-top: 6vw;
+}
 .initiativesTitle {
     position: absolute;
     top: 100%;
@@ -335,14 +343,15 @@ body {
     position: absolute;
     top: 180%;
     margin-top: 10vw;
-    margin-left: 0.75vw;
     width: 100vw;
+    padding-bottom: 10vw;
+    background: linear-gradient(5deg, transparent 0%, #84EB2D 0%, #84EB2D 50%, transparent 50%);
 }
 .aboutUsTitle {
     font-size: 2.5vw;
     font-weight: 300;
     display: inline;
-    margin-left: 1.5vw;
+    margin-left: 2.25vw;
 }
 .aboutUsInfo {
     margin-top: 1vw;
@@ -350,12 +359,25 @@ body {
     width: 100vw;
     overflow: hidden;
     overflow-wrap: break-word;
+    display: inline-block;
 }
 .aboutUsText {
     overflow-wrap: break-word;
     margin-right: 4vw;
-    margin-left: 1vw;
+    margin-left: 1.75vw;
+    font-size: 1.75vw;
+    display: inline-block;
+    padding-right: 35vw;
 }
+.placeholderPicOfPeople {
+    width: 30vw;
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    
+}
+
 
 
 
