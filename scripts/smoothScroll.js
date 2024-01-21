@@ -13,3 +13,13 @@ $("#scroll-3").on("click", function() {
         scrollTop: $("#scrollToTop").offset().top
      });
 });
+$(".topShortcut1").on("click", function() {
+    $('html,body').animate({
+        scrollTop: $("#scrollShortcutOne").offset().top
+     });
+});
+$(".topShortcut2").on("click", function() {
+    $('html,body').animate({
+        scrollTop: $("#scrollShortcutTwo").offset().top
+     });
+});
