@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/initiatives/solar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -19,8 +20,8 @@
     <section class="bgImageColor">
         <div class="encapsulateIMG">
             <img src="/images/solarFarmForMainInfoPage.jpg" class="solarFarmForMainInfoPage">
-            <h1 class="solarTitle">SOLAR <i class="fa-solid fa-sun fa-spin"></i> POWER</h1>
-        
+            <h1 class="solarTitle">SOLAR <i class='bx bx-sun bx-spin'></i></i> POWER</h1>
+
         </div>
     </section>
 
@@ -45,14 +46,41 @@
             </span>
         </span>
     </div>
-   
 
-    <div class="mainPage">
-        <!--<h1 class="solarTitle">SOLAR POWER</h1>-->
-    </div>
+    <section class="solarInfo">
+        <div class="tag basicInfo">
+            <h1 class="solarPowerExplained"> Solar Power Explained</h1>
+            <p class="solarInfoText"> Solar power is a renewable energy source derived from the sun's radiation. It is
+                harnessed using various technologies such as solar panels, photovoltaic cells, and solar thermal
+                systems. Solar panels convert sunlight into electricity, while solar thermal systems use sunlight to
+                generate heat for applications like water heating or electricity generation through steam turbines.
+                Solar power is considered environmentally friendly, as it produces no greenhouse gas emissions during
+                electricity generation and contributes to reducing reliance on fossil fuels. It has the potential to
+                play a significant role in sustainable energy solutions globally.
+                
+            </p>
+            <i class='bx bxs-sun' id="infoSun"></i>
+        </div>
+    </section>
 
+    <!-- ----- BASIC INFO -------- -->
+    <section class="tag infoBgColor">
+        <div class="encapsulateIMG">
+            <img src="./../../images/brainstormingWorkers.jpg" class="tagIMG brainstormingWorkersImage">
+            <div class="pageTwo-BasicInfo">
+                <div class="tag costInfo">
+                    <h1 class="solarCostExplained"> Cost of Solar</h1>
+                </div>
 
+                <div class="tag taxInfo">
+                    <h1 class="solarTaxExplained"> Tax Benefits</h1>
+                </div>
 
+            </div>
+        </div>
+    </section>
+
+    <script src="./../../scripts/fadeInOnScroll.js"></script>
 </body>
 
 </html>

@@ -9,6 +9,10 @@ body {
     width: 100%;
 }
 
+section {
+    height: 100vh;
+}
+
 /* ----- TOP -------*/
 .mainBanner {
     position: absolute;
@@ -136,9 +140,6 @@ body {
 
 
 /* ----- START OF PAGE ------*/
-.mainPage {
-    position: relative;
-}
 
 .solarTitle {
     position: absolute;
@@ -148,7 +149,7 @@ body {
     font-weight: bold;
     width: 100%;
     color: #fff976;
-    letter-spacing: 1.5vw;    
+    letter-spacing: 1.5vw;
 }
 
 
@@ -156,7 +157,6 @@ body {
 .encapsulateIMG {
     height: 100vh;
     overflow: hidden;
-    margin-bottom: 250px;
 }
 
 .solarFarmForMainInfoPage {
@@ -166,4 +166,90 @@ body {
 
 .bgImageColor {
     background-color: #024DEC;
+    height: 100vh;
+}
+
+
+/* ----- BASIC INFO ------- */
+
+.solarInfo {
+    padding-top: 1vw;
+    background: white;
+}
+
+.basicInfo {
+    width: 100%;
+    position: absolute;
+    padding-left: 5vw;
+    padding-top: 5vw;
+    color: black;
+    font-size: 2vw;
+}
+.solarInfoText {
+    padding-top: 2vw;
+    width: 90%;
+    text-indent: 5%;
+    position: relative;
+}
+#infoSun {
+    position: relative;
+    z-index: -2;
+    margin-top: -25vw;
+    left: 1%;
+    font-size: 30vw;
+    color: #fff976;
+}
+
+
+/*------ TAX INFO ----- */
+.infoBgColor {
+    background-color: black;
+}
+
+.brainstormingWorkersImage {
+    width: 100%;
+    opacity: 0.4;
+}
+
+.pageTwo-BasicInfo {
+    width: 100%;
+    position: absolute;
+    padding-left: 5vw;
+    padding-top: 5vw;
+    margin-top: -65%;
+    color: white;
+    font-size: 2vw;
+
+}
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.tagIMG {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+}
+
+.tagIMG.visible {
+    opacity: 0.4;
+    transform: translate(0, 0);
+}
+
+.costInfo {
+    float: left;
+    width: 50%;
+}
+
+.taxInfo {
+    float: right;
+    width: 50%;
 }
