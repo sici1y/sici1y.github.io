@@ -246,10 +246,24 @@ section {
 
 .costInfo {
     float: left;
-    width: 50%;
+    width: 45%;
+}
+.costList {
+    list-style-position: inside;
+    padding-top: 1.5vw;
+    font-size: 1.5vw;
+}
+.itcList {
+    text-indent: 8%;
+    font-size: 1.35vw;
 }
 
 .taxInfo {
     float: right;
     width: 50%;
+}
+.taxList {
+    list-style-position: inside;
+    padding-top: 1.5vw;
+    font-size: 1.5vw;
 }
