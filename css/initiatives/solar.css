@@ -251,11 +251,12 @@ section {
 .costList {
     list-style-position: inside;
     padding-top: 1.5vw;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 .itcList {
     text-indent: 8%;
-    font-size: 1.35vw;
+    font-size: 1.75vw;
+    width: 90%;
 }
 
 .taxInfo {
@@ -265,5 +266,11 @@ section {
 .taxList {
     list-style-position: inside;
     padding-top: 1.5vw;
-    font-size: 1.5vw;
+    font-size: 2vw;
+    width: 90%;
+}
+.netMetering {
+    text-indent: 8%;
+    font-size: 1.75vw;
+    width: 90%;
 }
