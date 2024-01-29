@@ -8,3 +8,5 @@ Initiative Background from <a href="https://www.freepik.com/free-vector/green-ge
 Solar Farm Photo for initiatives page - Photo by <a href="https://unsplash.com/@publicpowerorg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">American Public Power Association</a> on <a href="https://unsplash.com/photos/solar-panel-boards-on-brown-ground-fm5_vCUa-Bc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 Solar Initiative Planning Photo - Image by <a href="https://www.freepik.com/free-photo/corporate-workers-brainstorming-together_11762396.htm#query=people%20standing%20around%20a%20table%20with%20plans&position=12&from_view=search&track=ais&uuid=ad982a5c-9c2b-4d6c-95f1-1f9b557895d3">Freepik</a>
 Solar Cost info from https://energycenter.org/thought-leadership/blog/solar-energy-adoption-information-homeowners-and-small-businesses
+Interactive Map code harvested from https://dev.to/codecustard/creating-an-interactive-map-of-the-us-b5o
+Cost of solar panels by state from https://www.forbes.com/home-improvement/solar/cost-of-solar-panels/ 
