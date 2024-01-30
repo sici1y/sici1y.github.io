@@ -315,14 +315,14 @@ section {
 
 path {
     stroke: white;
-    fill:paleturquoise !important;
+    fill: #FFF489 !important;
 
     transition: fill .4s ease;
     transform-origin: center center;
 }
 
 path:hover {
-    fill: orange !important;
+    fill: #FFEB1F !important;
     cursor: pointer;
     transform: scale(1.005, 1.005);
 }
@@ -345,13 +345,13 @@ path:hover {
 #details-box {
     box-shadow: 0px 7px 40px rgba(0, 0, 0, 0.7);
     opacity: 0%;
-    padding: 1rem;
-    border-radius: 8px;
-    font-size: 24px;
+    padding: 1vw;
+    border-radius: 1vw;
+    font-size: 2vw;
     position: fixed;
     color: white;
     font-family: "Poppins";
-    background-color: black;
+    background-color: lightcoral;
     width: fit-content;
     transform: translateX(-50%);
     transition: opacity .4s ease;
