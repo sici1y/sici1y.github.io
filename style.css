@@ -1,0 +1,51 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+}
+.body{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+}
+
+
+/* ---- poems page ----*/
+a{
+    text-decoration: none;
+    color: darkred;
+}
+.yeet {
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+		width:100%;
+		max-width:1200px;
+		padding:15px;
+		margin:0px auto;
+        margin-top: 5%;
+        margin-left: 25%; 
+	}
+	.row{
+		margin:0px auto;
+		width:100%;
+	}
+	.text-col{
+		width:50%;
+		max-width:250px;
+		color:#333;
+		font-weight:500;
+		text-transform:uppercase;
+		float:left;
+        margin-bottom: 8vw;
+        padding-left: 4vw;
+	}
+	.clear{
+		clear:both;
+	}
